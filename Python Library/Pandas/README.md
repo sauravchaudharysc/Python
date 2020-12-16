@@ -1,4 +1,8 @@
 # Pandas
+- **Introduction**
+- **Pandas - MNIST DATA SETS**
+- **Pandas - MOVIE DATA SETS**
+
 A library to work on tabular data. To store data in the form of table. 
 
 ### Install
@@ -13,7 +17,7 @@ A library to work on tabular data. To store data in the form of table.
     Requirement already satisfied: python-dateutil>=2.6.1 in c:\programdata\anaconda3\lib\site-packages (from pandas) (2.8.0)
     Requirement already satisfied: pytz>=2017.2 in c:\programdata\anaconda3\lib\site-packages (from pandas) (2019.3)
     Requirement already satisfied: six>=1.5 in c:\programdata\anaconda3\lib\site-packages (from python-dateutil>=2.6.1->pandas) (1.12.0)
-    
+
 
 
 ```python
@@ -35,7 +39,7 @@ print(user_data)
 ```
 
     {'MarksA': array([63, 23, 64, 73, 87]), 'MarksB': array([94, 83, 61, 22, 31]), 'MarksC': array([91, 76, 54, 98, 77])}
-    
+
 
 
 ```python
@@ -63,7 +67,7 @@ print(df)
     2      64      61      54
     3      73      22      98
     4      87      31      77
-    
+
 
 
 ```python
@@ -83,7 +87,7 @@ df.head()
     .dataframe tbody tr th {
         vertical-align: top;
     }
-
+    
     .dataframe thead th {
         text-align: right;
     }
@@ -152,7 +156,7 @@ df.head(n=3)
     .dataframe tbody tr th {
         vertical-align: top;
     }
-
+    
     .dataframe thead th {
         text-align: right;
     }
@@ -229,7 +233,7 @@ print(my_data)
     2           2      64      61      54
     3           3      73      22      98
     4           4      87      31      77
-    
+
 
 
 ```python
@@ -244,7 +248,7 @@ print(my_data)
     2      64      61      54
     3      73      22      98
     4      87      31      77
-    
+
 
 ### To get Statistic of Data
 
@@ -265,7 +269,7 @@ my_data.describe()
     .dataframe tbody tr th {
         vertical-align: top;
     }
-
+    
     .dataframe thead th {
         text-align: right;
     }
@@ -352,7 +356,7 @@ my_data.tail()
     .dataframe tbody tr th {
         vertical-align: top;
     }
-
+    
     .dataframe thead th {
         text-align: right;
     }
@@ -454,7 +458,7 @@ df.iloc[3,idx]
 ```
 
     [1, 2]
-    
+
 
 
 
@@ -483,7 +487,7 @@ df.iloc[:3,idx]
     .dataframe tbody tr th {
         vertical-align: top;
     }
-
+    
     .dataframe thead th {
         text-align: right;
     }
@@ -535,7 +539,7 @@ df.iloc[:3,[1,2]]
     .dataframe tbody tr th {
         vertical-align: top;
     }
-
+    
     .dataframe thead th {
         text-align: right;
     }
@@ -589,7 +593,7 @@ my_data.sort_values(by=["MarksA"],ascending=False)
     .dataframe tbody tr th {
         vertical-align: top;
     }
-
+    
     .dataframe thead th {
         text-align: right;
     }
@@ -657,7 +661,7 @@ my_data.sort_values(by=["MarksA"],ascending=True)
     .dataframe tbody tr th {
         vertical-align: top;
     }
-
+    
     .dataframe thead th {
         text-align: right;
     }
@@ -726,7 +730,7 @@ my_data.sort_values(by=["MarksC","MarksA"],ascending=False)
     .dataframe tbody tr th {
         vertical-align: top;
     }
-
+    
     .dataframe thead th {
         text-align: right;
     }
@@ -792,7 +796,7 @@ print(my_data.shape)
 
     <class 'pandas.core.frame.DataFrame'>
     (5, 3)
-    
+
 
 
 ```python
@@ -808,7 +812,7 @@ print(data_array.shape)
      [87 31 77]]
     <class 'numpy.ndarray'>
     (5, 3)
-    
+
 
 ## Numpy Arrays Back Into Data Frame
 
@@ -828,7 +832,7 @@ print(new_df)
     2       64         61     54
     3       73         22     98
     4       87         31     77
-    
+
 
 
 ```python
@@ -857,7 +861,7 @@ print(pcm)
     2       64         61     54
     3       73         22     98
     4       87         31     77
-    
+
 
 
 ```python
@@ -901,13 +905,12 @@ plt.show()
     7  E008      F   26    140       Normal     120
     8  E009      M   32    133       Normal      75
     9  E010      M   36    133  Underweight      40
-    
+
 
 
     <Figure size 640x480 with 4 Axes>
 
-
-
 ```python
 
 ```
+
