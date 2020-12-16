@@ -37,7 +37,7 @@ y= x**2+10
 plt.plot(x,y)
 ```
 
-![1](/1.png)
+![1](1.png)
 
 ### Scatter Plot
 You get points here instead of line. It should be used when there are many different data points, and you want to highlight similarities in the data set. This is useful when looking for outliers and for understanding the distribution of your data.
